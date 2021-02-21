@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "75F42BBABYZRhGgrffWYXZ/+HFv+Ya3vR4iWiqHIIfQvPNOkF0tKQk5/WDkuvKMRSNTryszVdz2ZCeGKMWMZnA==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\elurs\\Desktop\\Universidad\\HADS\\Proyectos\\LAB Grupales\\WebApp\\MandarMail\\MandarMail.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\elurs\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\elurs\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,399 @@
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\WebApp.dll.config
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\WebApp.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\WebApp.pdb
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\WebApp.xml
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\csc.exe
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\csc.exe.config
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\csc.rsp
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\csi.exe
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\csi.exe.config
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\csi.rsp
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.AppContext.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.Console.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.Net.Http.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\vbc.exe
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\vbc.exe.config
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\vbc.rsp
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Asiii\source\repos\WebApp\WebApp\obj\Debug\WebApp.vbprojAssemblyReference.cache
+C:\Users\Asiii\source\repos\WebApp\WebApp\obj\Debug\WebApp.Resources.resources
+C:\Users\Asiii\source\repos\WebApp\WebApp\obj\Debug\WebApp.vbproj.GenerateResource.cache
+C:\Users\Asiii\source\repos\WebApp\WebApp\obj\Debug\WebApp.vbproj.CoreCompileInputs.cache
+C:\Users\Asiii\source\repos\WebApp\WebApp\obj\Debug\WebApp.vbproj.CopyComplete
+C:\Users\Asiii\source\repos\WebApp\WebApp\obj\Debug\WebApp.dll
+C:\Users\Asiii\source\repos\WebApp\WebApp\obj\Debug\WebApp.xml
+C:\Users\Asiii\source\repos\WebApp\WebApp\obj\Debug\WebApp.pdb
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\WebApp.dll.config
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\WebApp.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\WebApp.pdb
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\WebApp.xml
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\csc.exe
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\csc.exe.config
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\csc.rsp
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\csi.exe
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\csi.exe.config
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\csi.rsp
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.AppContext.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.Collections.Immutable.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.Console.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.Globalization.Calendars.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.IO.Compression.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.Net.Http.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.Net.Sockets.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.ValueTuple.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.Xml.XPath.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\vbc.exe
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\vbc.exe.config
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\vbc.rsp
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\VBCSCompiler.exe
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\roslyn\VBCSCompiler.exe.config
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\obj\Debug\WebApp.vbprojAssemblyReference.cache
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\obj\Debug\WebApp.Resources.resources
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\obj\Debug\WebApp.vbproj.GenerateResource.cache
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\obj\Debug\WebApp.vbproj.CoreCompileInputs.cache
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\obj\Debug\WebApp.vbproj.CopyComplete
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\obj\Debug\WebApp.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\obj\Debug\WebApp.xml
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\obj\Debug\WebApp.pdb
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\obj\Debug\WebApp.vbprojAssemblyReference.cache
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\obj\Debug\WebApp.Resources.resources
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\obj\Debug\WebApp.vbproj.GenerateResource.cache
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\obj\Debug\WebApp.vbproj.CoreCompileInputs.cache
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\obj\Debug\WebApp.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\obj\Debug\WebApp.xml
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\obj\Debug\WebApp.pdb
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\WebApp.dll.config
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\WebApp.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\WebApp.pdb
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\WebApp.xml
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\csc.exe
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\csc.exe.config
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\csc.rsp
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\csi.exe
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\csi.exe.config
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\csi.rsp
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.AppContext.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.Console.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.Net.Http.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.Net.Sockets.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\vbc.exe
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\vbc.exe.config
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\vbc.rsp
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\Microsoft.Win32.Primitives.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\netstandard.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.AppContext.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Collections.Concurrent.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Collections.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Collections.NonGeneric.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Collections.Specialized.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.ComponentModel.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.ComponentModel.Primitives.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Console.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Data.Common.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Diagnostics.Contracts.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Diagnostics.Debug.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Diagnostics.Process.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Diagnostics.StackTrace.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Diagnostics.Tools.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Diagnostics.TraceSource.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Diagnostics.Tracing.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Drawing.Primitives.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Dynamic.Runtime.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Globalization.Calendars.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Globalization.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Globalization.Extensions.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.IO.Compression.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.IO.Compression.ZipFile.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.IO.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.IO.FileSystem.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.IO.IsolatedStorage.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.IO.Pipes.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Linq.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Linq.Expressions.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Linq.Parallel.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Linq.Queryable.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Net.Http.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Net.NameResolution.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Net.NetworkInformation.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Net.Ping.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Net.Primitives.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Net.Requests.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Net.Security.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Net.Sockets.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Net.WebHeaderCollection.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Net.WebSockets.Client.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Net.WebSockets.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.ObjectModel.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Reflection.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Reflection.Extensions.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Reflection.Primitives.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Resources.Reader.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Resources.ResourceManager.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Resources.Writer.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Runtime.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Runtime.Extensions.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Runtime.Handles.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Runtime.InteropServices.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Runtime.Numerics.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Runtime.Serialization.Json.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Security.Claims.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Security.Cryptography.Csp.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Security.Principal.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Security.SecureString.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Text.Encoding.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Text.Encoding.Extensions.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Text.RegularExpressions.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Threading.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Threading.Overlapped.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Threading.Tasks.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Threading.Thread.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Threading.ThreadPool.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Threading.Timer.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.ValueTuple.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Xml.ReaderWriter.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Xml.XDocument.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Xml.XmlDocument.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Xml.XmlSerializer.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Xml.XPath.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Xml.XPath.XDocument.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\DAO.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Data.SqlClient.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Runtime.Extensions.Unchecked.dll
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\DAO.pdb
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Data.SqlClient.xml
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\System.Runtime.Extensions.Unchecked.xml
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jipvazoj\Desktop\WebApp\WebApp\obj\Debug\WebApp.vbproj.CopyComplete
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\Microsoft.Win32.Primitives.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\netstandard.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.AppContext.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Collections.Concurrent.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Collections.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Collections.NonGeneric.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Collections.Specialized.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.ComponentModel.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.ComponentModel.EventBasedAsync.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.ComponentModel.Primitives.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.ComponentModel.TypeConverter.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Console.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Data.Common.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Diagnostics.Contracts.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Diagnostics.Debug.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Diagnostics.FileVersionInfo.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Diagnostics.Process.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Diagnostics.StackTrace.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Diagnostics.Tools.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Diagnostics.TraceSource.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Diagnostics.Tracing.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Drawing.Primitives.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Dynamic.Runtime.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Globalization.Calendars.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Globalization.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Globalization.Extensions.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.IO.Compression.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.IO.Compression.ZipFile.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.IO.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.IO.FileSystem.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.IO.FileSystem.DriveInfo.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.IO.FileSystem.Primitives.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.IO.FileSystem.Watcher.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.IO.IsolatedStorage.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.IO.MemoryMappedFiles.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.IO.Pipes.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.IO.UnmanagedMemoryStream.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Linq.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Linq.Expressions.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Linq.Parallel.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Linq.Queryable.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Net.Http.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Net.NameResolution.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Net.NetworkInformation.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Net.Ping.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Net.Primitives.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Net.Requests.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Net.Security.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Net.Sockets.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Net.WebHeaderCollection.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Net.WebSockets.Client.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Net.WebSockets.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.ObjectModel.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Reflection.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Reflection.Extensions.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Reflection.Primitives.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Resources.Reader.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Resources.ResourceManager.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Resources.Writer.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Runtime.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Runtime.Extensions.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Runtime.Handles.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Runtime.InteropServices.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Runtime.Numerics.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Runtime.Serialization.Formatters.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Runtime.Serialization.Json.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Runtime.Serialization.Primitives.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Runtime.Serialization.Xml.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Security.Claims.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Security.Cryptography.Algorithms.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Security.Cryptography.Csp.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Security.Cryptography.Encoding.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Security.Cryptography.Primitives.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Security.Cryptography.X509Certificates.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Security.Principal.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Security.SecureString.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Text.Encoding.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Text.Encoding.Extensions.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Text.RegularExpressions.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Threading.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Threading.Overlapped.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Threading.Tasks.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Threading.Tasks.Parallel.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Threading.Thread.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Threading.ThreadPool.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Threading.Timer.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.ValueTuple.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Xml.ReaderWriter.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Xml.XDocument.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Xml.XmlDocument.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Xml.XmlSerializer.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Xml.XPath.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Xml.XPath.XDocument.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\DAO.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Data.SqlClient.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Runtime.Extensions.Unchecked.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\DAO.pdb
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Data.SqlClient.xml
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\System.Runtime.Extensions.Unchecked.xml
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\MandarMail.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\WebApp\bin\MandarMail.pdb

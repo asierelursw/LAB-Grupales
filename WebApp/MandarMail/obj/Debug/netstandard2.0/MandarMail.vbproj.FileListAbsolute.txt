@@ -1,0 +1,9 @@
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\MandarMail\bin\Debug\netstandard2.0\MandarMail.deps.json
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\MandarMail\bin\Debug\netstandard2.0\MandarMail.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\MandarMail\bin\Debug\netstandard2.0\MandarMail.pdb
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\MandarMail\obj\Debug\netstandard2.0\MandarMail.vbprojAssemblyReference.cache
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\MandarMail\obj\Debug\netstandard2.0\MandarMail.AssemblyInfoInputs.cache
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\MandarMail\obj\Debug\netstandard2.0\MandarMail.AssemblyInfo.vb
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\MandarMail\obj\Debug\netstandard2.0\MandarMail.vbproj.CoreCompileInputs.cache
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\MandarMail\obj\Debug\netstandard2.0\MandarMail.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\MandarMail\obj\Debug\netstandard2.0\MandarMail.pdb
