@@ -40,14 +40,13 @@ WHERE codigo in (SELECT Grupo FROM EstudiantesGrupo WHERE EstudiantesGrupo.Email
             <br />
             <br />
             <br />
-            <asp:GridView ID="GridView1" runat="server" Height="153px" Width="640px" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="Codigo" DataSourceID="gridviewAlumno" ForeColor="#333333" GridLines="None">
+            <asp:GridView ID="GridView1" runat="server" Height="153px" Width="640px" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="Codigo" ForeColor="#333333" GridLines="None">
                 <AlternatingRowStyle BackColor="White" />
                 <Columns>
                     <asp:BoundField DataField="Codigo" HeaderText="Codigo" ReadOnly="True" SortExpression="Codigo" />
                     <asp:BoundField DataField="Descripcion" HeaderText="Descripcion" SortExpression="Descripcion" />
                     <asp:BoundField DataField="HEstimadas" HeaderText="HEstimadas" SortExpression="HEstimadas" />
                     <asp:BoundField DataField="TipoTarea" HeaderText="TipoTarea" SortExpression="TipoTarea" />
-                    <asp:ButtonField CommandName="Update" Text="Instanciar" />
                 </Columns>
                 <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
                 <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
