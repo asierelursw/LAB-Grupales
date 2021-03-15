@@ -1,11 +1,18 @@
 Imports System.Data.SqlClient
 Imports System.Math
 Imports Ubiety.Dns.Core
+Imports System.Data
 
 Public Class AccesodatosSQL
     Private Shared conexion As New SqlConnection
     Private Shared comando As New SqlCommand
     Private Shared comando1 As New SqlCommand
+
+    Private Shared datAdapter As New SqlDataAdapter
+
+    Private Shared datSet As New DataSet
+    Private Shared datTable As New DataTable
+    Private Shared daView As New DataView
     Public Shared Function Conectar() As String
         Try
             conexion.ConnectionString = “Server=tcp:hads21-12.database.windows.net,1433;Initial Catalog=HADS21-12;Persist Security Info=False;User ID=esalgueira001@ikasle.ehu.eus@hads21-12;Password=070054hmK;MultipleActiveResultSets=True;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
@@ -22,40 +29,22 @@ Public Class AccesodatosSQL
         conexion.Close()
     End Sub
 
-    Public Shared Function insertar(ByVal email As String, ByVal nombre As String, ByVal apellidos As String, ByVal tipo As String, ByVal pass As String) As String
-        'Randomize()
-        'Dim rng As New Random()
-        'Dim randomNo As Integer = rng.Next(999999) ' this is a random number between 0 and 999999.
-
-        'Dim st = "INSERT INTO Usuarios VALUES (@email, @nombre, @apellidos, @numconfir, @confirmado, @tipo, @pass, @codpass)"
-        'Using comando As New SqlCommand
-        'With comando
-        '.Connection = conexion
-        '.CommandType = st
-        '.Parameters.AddWithValue("@email", email)
-        '.Parameters.AddWithValue("@nombre", nombre)
-        '.Parameters.AddWithValue("@apellidos", apellidos)
-        '.Parameters.AddWithValue("@numconfir", 0)
-        '.Parameters.AddWithValue("@confirmado", 0)
-        '.Parameters.AddWithValue("@tipo", tipo)
-        '.Parameters.AddWithValue("@pass", pass)
-        '.Parameters.AddWithValue("@codpass", 0)
-        'End With
-        'End Using
-        'Dim numregs As Integer
-        'comando = New SqlCommand(st, conexion)
-        'Try
-        'numregs = comando.ExecuteNonQuery()
-        'Catch ex As Exception
-        'MessageBox.Show(ex.Message.ToString(), " Unable to insert, being hacked by pepe pruebas")
-        'Return ex.Message
-        'End Try
-        'Return (numregs & " registro(s) insertado(s) en la BD ")
-
-    End Function
     Public Shared Function insertarVadillo(ByVal email As String, ByVal nombre As String, ByVal apellidos As String, ByVal randomNo As Integer, ByVal tipo As String, ByVal pass As String) As String
 
         Dim st = "insert into Usuarios values ('" & email & "', '" & nombre & "', '" & apellidos & "', " & randomNo & ", " & 0 & ", '" & tipo & "', '" & pass & "', " & 0 & ")"
+        Dim numregs As Integer
+        comando = New SqlCommand(st, conexion)
+        Try
+            numregs = comando.ExecuteNonQuery()
+        Catch ex As Exception
+            Return ex.Message
+        End Try
+        Return (numregs & " registro(s) insertado(s) en la BD ")
+    End Function
+
+    Public Shared Function agregarTarea(ByVal codigo As String, ByVal descripcion As String, ByVal codasig As String, ByVal hestimadas As Integer, ByVal tipotarea As String) As String
+
+        Dim st = "insert into TareasGenericas(Codigo, Descripcion, CodAsig, HEstimadas, Explotacion, TipoTarea) values ('" & codigo & "', '" & descripcion & "',  '" & codasig & "', " & hestimadas & ", '" & True & "', '" & tipotarea & "')"
         Dim numregs As Integer
         comando = New SqlCommand(st, conexion)
         Try
@@ -80,6 +69,43 @@ Public Class AccesodatosSQL
         Catch ex As Exception
             'MessageBox.Show(ex.Message.ToString(), " Unable to insert, being hacked by pepe pruebas")
             Return ex.Message
+        End Try
+    End Function
+
+    ' Public Shared Function verTareas(ByVal nombredatagrid As String) As Object
+    'Dim st = "Select * From TareasGenericas"
+    '   comando = New SqlCommand(st, conexion)
+
+    'Dim query = comando.ExecuteNonQuery()
+
+    '   datAdapter = New SqlDataAdapter(st, conexion)
+
+    '  datAdapter.Fill(datSet, "Tareas")
+
+    ' datTable = datSet.Tables("Tareas")
+
+    'Return datSet
+    'End Function
+    Public Shared Function VertareasAlumno(ByVal email As String) As Object
+        Dim st = "Select Nombre From Asignaturas JOIN GruposClase ON Asignaturas.codigo = GruposClase.codigo JOIN EstudiantesGrupo on GruposClase.codigo = EstudiantesGrupo.Grupo where EstudiantesGrupo.email = '" & email & "'"
+        comando = New SqlCommand(st, conexion)
+
+        Return comando.ExecuteNonQuery()
+
+    End Function
+    Public Shared Function EsProfesor(ByVal email As String) As Integer
+        Dim st = "Select count (*) from Usuarios where email = '" & email & "' and tipo = 'Profesor'"
+        comando = New SqlCommand(st, conexion)
+        Return comando.ExecuteScalar()
+    End Function
+
+    Public Shared Function Nombre(ByVal email As String) As String
+        Dim st = "Select Nombre from Usuarios where email = '" & email & "'"
+        comando = New SqlCommand(st, conexion)
+        Try
+            Return comando.ExecuteNonQuery()
+        Catch ex As Exception
+            Return ""
         End Try
     End Function
 
