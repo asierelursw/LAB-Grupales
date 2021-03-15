@@ -36,12 +36,12 @@
                     <br />
                     <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/InstanciarTarea.aspx">Tareas Genericas</asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/TareasAlumno.aspx">Tareas Genericas</asp:LinkButton>
                     <br />
                     <br />
                     <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/TareasAlumno.aspx">Tareas Propias</asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton2" runat="server">Tareas Propias</asp:LinkButton>
                     <br />
                     <br />
                     <br />
