@@ -1,0 +1,9 @@
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\DAO\bin\Release\netstandard2.0\DAO.deps.json
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\DAO\bin\Release\netstandard2.0\DAO.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\DAO\bin\Release\netstandard2.0\DAO.pdb
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\DAO\obj\Release\netstandard2.0\DAO.vbprojAssemblyReference.cache
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\DAO\obj\Release\netstandard2.0\DAO.AssemblyInfoInputs.cache
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\DAO\obj\Release\netstandard2.0\DAO.AssemblyInfo.vb
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\DAO\obj\Release\netstandard2.0\DAO.vbproj.CoreCompileInputs.cache
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\DAO\obj\Release\netstandard2.0\DAO.dll
+D:\Users\elurs\Desktop\Universidad\HADS\Proyectos\LAB Grupales\WebApp\DAO\obj\Release\netstandard2.0\DAO.pdb
