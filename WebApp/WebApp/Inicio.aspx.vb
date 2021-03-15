@@ -1,7 +1,10 @@
 ﻿Imports DAO.AccesodatosSQL
 Imports System.Data.SqlClient
+Imports System.Web.SessionState
+
 Public Class Inicio
     Inherits System.Web.UI.Page
+
 
     Protected Sub Page_Unload(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Unload
         cerrarconexion()
@@ -11,13 +14,26 @@ Public Class Inicio
         Dim result As String
         result = Conectar()
         Label1.Text = result
+
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If EstaRegistrado(TextBox1.Text, TextBox2.Text) = "Login realizado con exito" Then
-            MsgBox("Login realizado con exito")
-            cerrarconexion()
-            Server.Transfer("~/Inicio.aspx")
+        Dim email = TextBox1.Text
+        Dim pass = TextBox2.Text
+        If EstaRegistrado(email, pass) = "Login realizado con exito" Then
+            Session.Add("Email", email)
+            Session.Add("Nombre", Nombre(email))
+
+            If EsProfesor(email) = 1 Then
+                MsgBox("Login realizado con exito profesor " & Session("Nombre"))
+                cerrarconexion()
+                Response.Redirect("~/Profesor.aspx")
+            Else
+                MsgBox("Login realizado con exito alumno " & Session("Nombre"))
+                cerrarconexion()
+                Response.Redirect("~/Alumno.aspx")
+            End If
+
         Else
             MsgBox("Login no realizado compruebe los datos insertados")
             cerrarconexion()
