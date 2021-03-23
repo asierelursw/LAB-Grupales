@@ -25,11 +25,11 @@ Public Class Inicio
             Session.Add("Nombre", Nombre(email))
 
             If EsProfesor(email) = 1 Then
-                MsgBox("Login realizado con exito profesor " & Session("Nombre"))
+                MsgBox("Login realizado con exito en modo profesor")
                 cerrarconexion()
                 Response.Redirect("~/Profesor.aspx")
             Else
-                MsgBox("Login realizado con exito alumno " & Session("Nombre"))
+                MsgBox("Login realizado con exito en modo Alumno")
                 cerrarconexion()
                 Response.Redirect("~/Alumno.aspx")
             End If
