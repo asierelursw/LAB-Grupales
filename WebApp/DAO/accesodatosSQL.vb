@@ -148,7 +148,6 @@ Public Class AccesodatosSQL
         Catch ex As Exception
             Return 0
         End Try
-
-
     End Function
+
 End Class
