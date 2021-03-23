@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<tareas>
+  <tarea codigo="ISO-Lab1">
+    <descripcion>Laboratorio de SWING</descripcion>
+    <codasig>ISO</codasig>
+    <hestimadas>12</hestimadas>
+    <explotacion>true</explotacion>
+    <tipotarea>Laboratorio</tipotarea>
+  </tarea>
+  <tarea codigo="ISO-Lab1">
+    <descripcion>Laboratorio de SWING</descripcion>
+    <codasig>ISO</codasig>
+    <hestimadas>12</hestimadas>
+    <explotacion>true</explotacion>
+    <tipotarea>Laboratorio</tipotarea>
+  </tarea>
+</tareas>
