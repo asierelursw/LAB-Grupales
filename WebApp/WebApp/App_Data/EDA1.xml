@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="yes"?>
+<tareas>
+  <tarea codigo="EDA20-Ej1">
+    <descripcion>Ejercicio sobre listas ligadas</descripcion>
+    <codasig>EDA1</codasig>
+    <hestimadas>3</hestimadas>
+    <explotacion>true</explotacion>
+    <tipotarea>Ejercicio</tipotarea>
+  </tarea>
+  <tarea codigo="EDA20-Ex1">
+    <descripcion>examen</descripcion>
+    <codasig>EDA1</codasig>
+    <hestimadas>12</hestimadas>
+    <explotacion>true</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="EDA20-Ex2">
+    <descripcion>examen</descripcion>
+    <codasig>EDA1</codasig>
+    <hestimadas>3</hestimadas>
+    <explotacion>true</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="EDA-21-L1">
+    <descripcion>Lab 1 de ESA</descripcion>
+    <codasig>EDA1</codasig>
+    <hestimadas>5</hestimadas>
+    <explotacion>true</explotacion>
+    <tipotarea>Laboratorio</tipotarea>
+  </tarea>
+  <tarea codigo="EDA20-Ej1">
+    <descripcion>Ejercicio sobre listas ligadas</descripcion>
+    <codasig>EDA1</codasig>
+    <hestimadas>3</hestimadas>
+    <explotacion>true</explotacion>
+    <tipotarea>Ejercicio</tipotarea>
+  </tarea>
+  <tarea codigo="EDA20-Ex1">
+    <descripcion>examen</descripcion>
+    <codasig>EDA1</codasig>
+    <hestimadas>12</hestimadas>
+    <explotacion>true</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="EDA20-Ex2">
+    <descripcion>examen</descripcion>
+    <codasig>EDA1</codasig>
+    <hestimadas>3</hestimadas>
+    <explotacion>true</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="EDA-21-L1">
+    <descripcion>Lab 1 de ESA</descripcion>
+    <codasig>EDA1</codasig>
+    <hestimadas>5</hestimadas>
+    <explotacion>true</explotacion>
+    <tipotarea>Laboratorio</tipotarea>
+  </tarea>
+</tareas>
