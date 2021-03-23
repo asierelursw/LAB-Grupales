@@ -43,6 +43,7 @@ WHERE codigo in (SELECT Grupo FROM EstudiantesGrupo WHERE EstudiantesGrupo.Email
             <asp:GridView ID="GridView1" runat="server" Height="153px" Width="640px" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="Codigo" ForeColor="#333333" GridLines="None">
                 <AlternatingRowStyle BackColor="White" />
                 <Columns>
+                    <asp:CommandField ButtonType="Button" HeaderText="Modificar" SelectText="Instanciar" ShowSelectButton="True" />
                     <asp:BoundField DataField="Codigo" HeaderText="Codigo" ReadOnly="True" SortExpression="Codigo" />
                     <asp:BoundField DataField="Descripcion" HeaderText="Descripcion" SortExpression="Descripcion" />
                     <asp:BoundField DataField="HEstimadas" HeaderText="HEstimadas" SortExpression="HEstimadas" />
