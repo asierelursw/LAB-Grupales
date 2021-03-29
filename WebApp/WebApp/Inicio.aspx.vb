@@ -24,14 +24,28 @@ Public Class Inicio
             Session.Add("Email", email)
             Session.Add("Nombre", Nombre(email))
 
+            If email = "admin@ehu.es" Then
+                System.Web.Security.FormsAuthentication.SetAuthCookie("admin@ehu.es", True)
+                MsgBox("Login realizado con exito en modo Admin")
+                cerrarconexion()
+                Response.Redirect("Private/Administrador/GestionUsuarios.aspx")
+                Exit Sub
+            End If
+
             If EsProfesor(email) = 1 Then
+                If email = "vadillo@ehu.es" Then
+                    System.Web.Security.FormsAuthentication.SetAuthCookie("vadillo@ehu.es", True)
+                Else
+                    System.Web.Security.FormsAuthentication.SetAuthCookie("Profesor", True)
+                End If
                 MsgBox("Login realizado con exito en modo profesor")
                 cerrarconexion()
-                Response.Redirect("~/Profesor.aspx")
+                Response.Redirect("Private/Profesor/Profesor.aspx")
             Else
+                System.Web.Security.FormsAuthentication.SetAuthCookie("Alumno", True)
                 MsgBox("Login realizado con exito en modo Alumno")
                 cerrarconexion()
-                Response.Redirect("~/Alumno.aspx")
+                Response.Redirect("Private/Alumno/alumnos.aspx")
             End If
 
         Else
