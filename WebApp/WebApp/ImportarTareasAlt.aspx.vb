@@ -9,7 +9,7 @@ Public Class ImportarTareasAlt
         Label1.Text = ""
 
         Try
-            Dim Sql As String = "SELECT DISTINCT Codigo, Descripcion, HEstimadas, Explotacion, TipoTarea, CodAsig FROM TareasGenericas WHERE Explotacion = 'True' AND Codigo NOT IN (SELECT CodTarea FROM EstudiantesTareas WHERE Email = '" & Session("Email") & "');"
+            Dim Sql As String = "SELECT * FROM TareasGenericas WHERE 0=1;"
             Dim da = New SqlDataAdapter(Sql, connection)
             Dim tb As New SqlCommandBuilder(da)
             Dim tds As New DataSet
@@ -24,36 +24,37 @@ Public Class ImportarTareasAlt
 
             tlist = XMLDoc.GetElementsByTagName("tarea")
 
+            Dim row As DataRow
+
             For Each tarea In tlist
 
-                Dim row As DataRow = tdt.NewRow
+                row = tds.Tables(0).NewRow
 
-                row("Codigo") = tarea.Attributes.GetNamedItem("codigo").Value
+                Dim atr As XmlAttributeCollection = tarea.Attributes
 
-                row("Descripcion") = tarea.ChildNodes(0).InnerText
+                row.Item(0) = atr.ItemOf(0).Value
 
-                row("CodAsig") = DropDownList1.SelectedValue
+                row.Item(1) = tarea.ChildNodes(0).ChildNodes(0).Value
 
-                row("HEstimadas") = tarea.ChildNodes(1).InnerText
+                row.Item(2) = DropDownList1.SelectedValue
 
-                If (tarea.ChildNodes(2).InnerText = "False") Then
-                    row("Explotacion") = 0
-                Else
-                    row("Explotacion") = 1
-                End If
+                row.Item(3) = Convert.ToInt32(tarea.ChildNodes(1).InnerText)
 
-                row("TipoTarea") = tarea.ChildNodes(3).InnerText
+                row.Item(4) = tarea.ChildNodes(2).ChildNodes(0).Value
 
-                tdt.Rows.Add(row)
+                row.Item(5) = tarea.ChildNodes(3).ChildNodes(0).Value
+
+                tds.Tables(0).Rows.Add(row)
             Next
 
-            Dim act = da.Update(tds)
-
-            If (act = 0) Then
-                Label1.Text = "ERROR TAREAS YA IMPORTADAS"
-            Else
+            Try
+                Dim act = da.Update(tds)
                 Label1.Text = "TAREAS IMPORTADAS CORRECTAMENTE"
-            End If
+            Catch ex As Exception
+                Label1.Text = "ERROR TAREAS YA IMPORTADAS"
+                Exit Sub
+            End Try
+
         Catch ex As Exception
             MsgBox(ex.ToString())
         End Try
