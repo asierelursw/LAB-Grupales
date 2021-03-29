@@ -11,6 +11,7 @@ Public Class ImportarTareas
     Dim dapTareas As New SqlDataAdapter()
     Dim dstTareas As New DataSet()
 
+
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         If Page.IsPostBack Then
             dstTareas = Session("datos")
@@ -31,18 +32,22 @@ Public Class ImportarTareas
     Protected Sub DropDownList1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles DropDownList1.SelectedIndexChanged
         Dim Sql = "SELECT Codigo, Descripcion, CodAsig, HEstimadas, Explotacion, TipoTarea FROM TareasGenericas WHERE CodAsig='" + DropDownList1.Text + "'"
         dapTareas = New SqlDataAdapter(Sql, conClsf)
+        Session("adapter") = dapTareas
         dstTareas.Tables(0).Clear()
         dapTareas.Fill(dstTareas)
+        Session("datos") = dstTareas
         GridView1.DataSource = dstTareas.Tables(0)
         GridView1.DataBind()
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim Sql = "SELECT Codigo, Descripcion, CodAsig, HEstimadas, Explotacion, TipoTarea FROM TareasGenericas WHERE CodAsig='" + DropDownList1.Text + "'"
-        dapTareas = New SqlDataAdapter(Sql, conClsf)
-        Dim bldTareas = New SqlCommandBuilder(dapTareas)
-        dapTareas.Fill(dstTareas)
+        'Dim Sql = "SELECT Codigo, Descripcion, CodAsig, HEstimadas, Explotacion, TipoTarea FROM TareasGenericas WHERE CodAsig='" + DropDownList1.Text + "'"
+        'dapTareas = New SqlDataAdapter(Sql, conClsf)
+        'Dim bldTareas = New SqlCommandBuilder(dapTareas)
+        'dapTareas.Fill(dstTareas)
         Dim tblTareas As New DataTable()
+        dapTareas = Session("adapter")
+        dstTareas = Session("datos")
         tblTareas = dstTareas.Tables.Item(0)
         tblTareas.TableName = "tarea"
         tblTareas.Columns.Item(0).ColumnMapping = MappingType.Attribute
