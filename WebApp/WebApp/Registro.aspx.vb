@@ -15,8 +15,18 @@ Public Class Registro
     Protected Sub Button1_Click1(sender As Object, e As EventArgs) Handles Button1.Click
         Dim rng As New Random()
         Dim randomNo As Integer = rng.Next(999999) ' this is a random number between 0 and 999999.
+
+        Dim pass = TextBox4.Text
+        Dim hash As New System.Security.Cryptography.MD5CryptoServiceProvider
+        Dim bytesToHash() As Byte = System.Text.Encoding.ASCII.GetBytes(pass)
+        bytesToHash = hash.ComputeHash(bytesToHash)
+        pass = ""
+
+        For Each b As Byte In bytesToHash
+            pass += b.ToString("x2")
+        Next
         Try
-            Response.Write(insertarVadillo(TextBox1.Text, TextBox2.Text, TextBox3.Text, randomNo, RadioButtonList1.SelectedValue, TextBox4.Text))
+            Response.Write(insertarVadillo(TextBox1.Text, TextBox2.Text, TextBox3.Text, randomNo, RadioButtonList1.SelectedValue, pass))
             Dim body As String = "Su codigo de confirmación es " + randomNo.ToString
 
             If (mail.enviarEmail(TextBox1.Text, "Confirmacion de la cuenta", body)) Then
