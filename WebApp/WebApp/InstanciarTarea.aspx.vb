@@ -18,12 +18,19 @@ Public Class InstanciarTareas
         TextBox2.Text = Request.QueryString("codigo")
         TextBox3.Text = Request.QueryString("horas")
 
-        Dim Sql = "SELECT Email, CodTarea, HEstimadas, HReales FROM EstudiantesTareas WHERE CodTarea='" + Request.QueryString("codigo") + "'"
-        dapTareas = New SqlDataAdapter(Sql, conClsf)
-        dapTareas.Fill(dstTareas)
-        Session("TareasAlumno") = dstTareas
-        GridView1.DataSource = dstTareas.Tables(0)
-        GridView1.DataBind()
+        If Page.IsPostBack Then
+            dstTareas = Session("TareasAlumno")
+            dapTareas = Session("Adapter")
+        Else
+            Dim Sql = "SELECT Email, CodTarea, HEstimadas, HReales FROM EstudiantesTareas WHERE CodTarea='" + Request.QueryString("codigo") + "'"
+            dapTareas = New SqlDataAdapter(Sql, conClsf)
+            dapTareas.Fill(dstTareas)
+            Session("TareasAlumno") = dstTareas
+            Session("Adapter") = dapTareas
+            GridView1.DataSource = dstTareas.Tables(0)
+            GridView1.DataBind()
+        End If
+
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
