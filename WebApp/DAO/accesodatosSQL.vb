@@ -58,13 +58,33 @@ Public Class AccesodatosSQL
     Public Shared Function EstaRegistrado(ByVal email As String, ByVal pass As String) As String
 
         Dim numregs As Integer
+
         Try
             numregs = contar(email, pass)
             If numregs = 1 Then
 
                 Return "Login realizado con exito"
             Else
-                Return "Login fallido, revise los datos introducidos"
+                Try
+                    Dim hash As New System.Security.Cryptography.MD5CryptoServiceProvider
+                    Dim bytesToHash() As Byte = System.Text.Encoding.ASCII.GetBytes(pass)
+                    bytesToHash = hash.ComputeHash(bytesToHash)
+                    pass = ""
+
+                    For Each b As Byte In bytesToHash
+                        pass += b.ToString("x2")
+                    Next
+                    numregs = contar(email, pass)
+                    If numregs = 1 Then
+                        Return "Login realizado con exito"
+                    Else
+                        Return "Login fallido, revise los datos introducidos"
+                    End If
+
+                Catch ex As Exception
+                    Return "Registro fallido, error de servicio"
+                End Try
+
             End If
         Catch ex As Exception
             'MessageBox.Show(ex.Message.ToString(), " Unable to insert, being hacked by pepe pruebas")
