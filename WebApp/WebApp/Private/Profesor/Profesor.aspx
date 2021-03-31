@@ -32,21 +32,21 @@
                 <asp:Panel ID="Panel2" runat="server" BackColor="#FFCC66" BorderColor="Black" BorderWidth="3px" ForeColor="Blue" Height="368px" Width="269px">
                     <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/InsertarTarea.aspx">Asignaturas</asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/Private/Profesor/InsertarTarea.aspx">Asignaturas</asp:LinkButton>
                     <br />
                     <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
-                    <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/TareasProfesor.aspx">Tareas</asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/Private/Profesor/TareasProfesor.aspx">Tareas</asp:LinkButton>
                     <br />
                     <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Grupos<br />
                     <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:LinkButton ID="LinkButton3" runat="server" PostBackUrl="~/ImportarTareasAlt.aspx">Importar v. XML Document</asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton3" runat="server" PostBackUrl="~/Private/Profesor/ImportarTareasAlt.aspx">Importar v. XML Document</asp:LinkButton>
                     <br />
                     <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:LinkButton ID="LinkButton4" runat="server" PostBackUrl="~/ExportarTareas.aspx">Exportar</asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton4" runat="server" PostBackUrl="~/Private/Profesor/ExportarTareas.aspx">Exportar</asp:LinkButton>
                         </asp:Panel>
                     </td>
                     <td><div class="auto-style2">
