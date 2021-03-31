@@ -45,7 +45,7 @@ Public Class Inicio
                 System.Web.Security.FormsAuthentication.SetAuthCookie("Alumno", True)
                 MsgBox("Login realizado con exito en modo Alumno")
                 cerrarconexion()
-                Response.Redirect("Private/Alumno/alumnos.aspx")
+                Response.Redirect("Private/Alumno/Alumno.aspx")
             End If
 
         Else

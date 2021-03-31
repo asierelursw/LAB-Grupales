@@ -1,2 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters />
+<parameters>
+  <parameter name="HADS21-12ConnectionString-Web.config Connection String" description="HADS21-12ConnectionString Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=tcp:hads21-12.database.windows.net,1433;Initial Catalog=HADS21-12;Persist Security Info=True;User ID=esalgueira001@ikasle.ehu.eus@hads21-12;Password=070054hmK" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Users\\elurs\\Desktop\\Universidad\\HADS\\Proyectos\\LAB\ Grupales\\WebApp\\WebApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='HADS21-12ConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<tareas>
+  <tarea codigo="HAS20-Lab4">
+    <descripcion>Laboratorio sobre XML</descripcion>
+    <codasig>HAS</codasig>
+    <hestimadas>12</hestimadas>
+    <explotacion>true</explotacion>
+    <tipotarea>Laboratorio</tipotarea>
+  </tarea>
+  <tarea codigo="HAS20-Test1">
+    <descripcion>Test 1 de la asignatura</descripcion>
+    <codasig>HAS</codasig>
+    <hestimadas>1</hestimadas>
+    <explotacion>false</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+</tareas>
