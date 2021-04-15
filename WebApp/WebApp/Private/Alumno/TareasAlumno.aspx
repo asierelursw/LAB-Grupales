@@ -13,11 +13,12 @@
     </style>
 </head>
 <body>
+
     <form id="form1" runat="server">
         <div class="auto-style1">
             <br />
             <br />
-            <asp:HyperLink ID="HyperLink1" runat="server" Font-Underline="True" ForeColor="Blue" NavigateUrl="~/Inicio.aspx">Cerrar Sesión</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink1" runat="server" Font-Underline="True" ForeColor="Blue" NavigateUrl="~/Private/Logout.aspx">Cerrar Sesión</asp:HyperLink>
             <br />
             <asp:Panel ID="Panel1" runat="server" BackColor="Silver" Font-Bold="True" Font-Size="X-Large" Height="146px" Width="1434px">
                 <br />

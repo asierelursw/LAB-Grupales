@@ -14,22 +14,22 @@ Option Explicit On
 Partial Public Class Profesor
 
     '''<summary>
-    '''Control form2.
+    '''Control HyperLink1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents form2 As Global.System.Web.UI.HtmlControls.HtmlForm
+    Protected WithEvents HyperLink1 As Global.System.Web.UI.WebControls.HyperLink
 
     '''<summary>
-    '''Control Panel2.
+    '''Control form1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Panel2 As Global.System.Web.UI.WebControls.Panel
+    Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
     '''Control LinkButton1.
@@ -66,4 +66,22 @@ Partial Public Class Profesor
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents LinkButton4 As Global.System.Web.UI.WebControls.LinkButton
+
+    '''<summary>
+    '''Control LinkButton5.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents LinkButton5 As Global.System.Web.UI.WebControls.LinkButton
+
+    '''<summary>
+    '''Control tablasAJAX.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents tablasAJAX As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 End Class

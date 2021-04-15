@@ -47,6 +47,10 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=20.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\elurs\Documents\ASP.NET AJAX Control Toolkit\Bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
       <Private>True</Private>
@@ -229,6 +233,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Global.asax" />
     <Content Include="Private\Administrador\GestionUsuarios.aspx" />
     <Content Include="Private\Alumno\Alumno.aspx" />
     <Content Include="App_Data\ADSI.xml" />
@@ -238,7 +243,8 @@
     <Content Include="App_Data\SEG.xml" />
     <Content Include="App_Data\VerTablaTareas.xsl" />
     <Content Include="Confirmar.aspx" />
-    <Content Include="Global.asax" />
+    <Content Include="Private\JavaScript.js" />
+    <Content Include="Private\Logout.aspx" />
     <Content Include="Private\Profesor\ExportarTareas.aspx" />
     <Content Include="Private\Profesor\ImportarTareasAlt.aspx" />
     <Content Include="Inicio.aspx" />
@@ -246,12 +252,16 @@
     <Content Include="Private\Alumno\InstanciarTarea.aspx" />
     <Content Include="Modificar.aspx" />
     <Content Include="Private\Profesor\Profesor.aspx" />
+    <Content Include="Private\tablausuarios.aspx" />
     <Content Include="Registro.aspx" />
     <Content Include="Private\Alumno\TareasAlumno.aspx" />
     <Content Include="Private\Profesor\TareasProfesor.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="Private\Administrador\GestionUsuarios.aspx.designer.vb">
       <DependentUpon>GestionUsuarios.aspx</DependentUpon>
     </Compile>
@@ -273,8 +283,12 @@
       <DependentUpon>Confirmar.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Global.asax.vb">
-      <DependentUpon>Global.asax</DependentUpon>
+    <Compile Include="Private\Logout.aspx.designer.vb">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Private\Logout.aspx.vb">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Private\Profesor\ExportarTareas.aspx.designer.vb">
       <DependentUpon>ExportarTareas.aspx</DependentUpon>
@@ -342,6 +356,13 @@
     </Compile>
     <Compile Include="Private\Profesor\Profesor.aspx.vb">
       <DependentUpon>Profesor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Private\tablausuarios.aspx.designer.vb">
+      <DependentUpon>tablausuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Private\tablausuarios.aspx.vb">
+      <DependentUpon>tablausuarios.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Registro.aspx.designer.vb">

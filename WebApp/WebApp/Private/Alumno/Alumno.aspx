@@ -26,6 +26,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
+             <asp:HyperLink ID="HyperLink1" runat="server" Font-Underline="True" ForeColor="Blue" NavigateUrl="~/Private/Logout.aspx">Cerrar Sesión</asp:HyperLink>
             <table class="auto-style4">
                 <tr>
                     <td class="auto-style3">

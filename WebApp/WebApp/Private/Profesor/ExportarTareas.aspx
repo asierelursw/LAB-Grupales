@@ -8,6 +8,7 @@
     <title></title>
 </head>
 <body>
+     <asp:HyperLink ID="HyperLink1" runat="server" Font-Underline="True" ForeColor="Blue" NavigateUrl="~/Private/Logout.aspx">Cerrar Sesión</asp:HyperLink>
     <form id="form1" runat="server">
         <div>
             <asp:Panel ID="Panel1" runat="server" BackColor="Silver" Font-Bold="True" Font-Size="X-Large" ForeColor="Black" Height="146px" Width="1430px">

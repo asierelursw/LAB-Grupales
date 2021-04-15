@@ -89,6 +89,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:WebApp.Alumno._HyperLink1">
+<summary>
+Control HyperLink1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:WebApp.Alumno._Panel2">
 <summary>
 Control Panel2.
@@ -137,6 +146,24 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:WebApp.Confirmar._Button1">
 <summary>
 Control Button1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp.Logout._form1">
+<summary>
+control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp.ImportarTareas._HyperLink1">
+<summary>
+Control HyperLink1.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -209,6 +236,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:WebApp.ImportarTareas._LinkButton1">
 <summary>
 Control LinkButton1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp.ImportarTareasAlt._HyperLink1">
+<summary>
+Control HyperLink1.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -377,6 +413,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:WebApp.InsertarTarea._HyperLink2">
+<summary>
+Control HyperLink2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:WebApp.InsertarTarea._form1">
 <summary>
 Control form1.
@@ -470,6 +515,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:WebApp.InsertarTarea._HyperLink1">
 <summary>
 Control HyperLink1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp.InstanciarTareas._HyperLink2">
+<summary>
+Control HyperLink2.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -647,18 +701,18 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:WebApp.Profesor._form2">
+<member name="F:WebApp.Profesor._HyperLink1">
 <summary>
-Control form2.
+Control HyperLink1.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:WebApp.Profesor._Panel2">
+<member name="F:WebApp.Profesor._form1">
 <summary>
-Control Panel2.
+Control form1.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -695,6 +749,60 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:WebApp.Profesor._LinkButton4">
 <summary>
 Control LinkButton4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp.Profesor._LinkButton5">
+<summary>
+Control LinkButton5.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp.Profesor._tablasAJAX">
+<summary>
+Control tablasAJAX.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp.tablausuarios._countalumnos">
+<summary>
+Control countalumnos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp.tablausuarios._countprofesores">
+<summary>
+Control countprofesores.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp.tablausuarios._correoalumnos">
+<summary>
+Control correoalumnos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp.tablausuarios._correoprofesores">
+<summary>
+Control correoprofesores.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -971,6 +1079,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:WebApp.TareasProfesor._Panel1">
+<summary>
+Control Panel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:WebApp.TareasProfesor._HyperLink1">
 <summary>
 Control HyperLink1.
@@ -980,9 +1097,18 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:WebApp.TareasProfesor._Panel1">
+<member name="F:WebApp.TareasProfesor._ScriptManager1">
 <summary>
-Control Panel1.
+Control ScriptManager1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp.TareasProfesor._UpdatePanel2">
+<summary>
+Control UpdatePanel2.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1007,15 +1133,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:WebApp.TareasProfesor._Button1">
-<summary>
-Control Button1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:WebApp.TareasProfesor._GridView1">
 <summary>
 Control GridView1.
@@ -1025,9 +1142,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:WebApp.TareasProfesor._gridviewProfesores">
+<member name="F:WebApp.TareasProfesor._SqlDataSource2">
 <summary>
-Control gridviewProfesores.
+Control SqlDataSource2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp.TareasProfesor._Button2">
+<summary>
+Control Button2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp.TareasProfesor._LinkButton1">
+<summary>
+Control LinkButton1.
 </summary>
 <remarks>
 Campo generado automáticamente.

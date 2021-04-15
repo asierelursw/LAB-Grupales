@@ -1,72 +1,41 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Profesor.aspx.vb" Inherits="WebApp.Profesor" %>
 
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="ajaxToolkit" %>
+
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <script type="text/javascript"
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script type="text/javascript" src="../JavaScript.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-    <style type="text/css">
-        .auto-style4 {
-            width: 100%;
-            margin-right: 0px;
-        }
-        .auto-style3 {
-            width: 615px;
-        }
-        .auto-style2 {
-            height: 325px;
-            width: 686px;
-            margin-left: 352px;
-            margin-right: 0px;
-            margin-top: 0px;
-        }
-    </style>
 </head>
 <body>
-    <form id="form2" runat="server">
+     <asp:HyperLink ID="HyperLink1" runat="server" Font-Underline="True" ForeColor="Blue" NavigateUrl="~/Private/Logout.aspx">Cerrar Sesión</asp:HyperLink>
+    <form id="form1" runat="server">
         <div>
-            <table class="auto-style4">
-                <tr>
-                    <td class="auto-style3">
-                <asp:Panel ID="Panel2" runat="server" BackColor="#FFCC66" BorderColor="Black" BorderWidth="3px" ForeColor="Blue" Height="368px" Width="269px">
-                    <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/Private/Profesor/InsertarTarea.aspx">Asignaturas</asp:LinkButton>
-                    <br />
-                    <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
-                    <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/Private/Profesor/TareasProfesor.aspx">Tareas</asp:LinkButton>
-                    <br />
-                    <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Grupos<br />
-                    <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:LinkButton ID="LinkButton3" runat="server" PostBackUrl="~/Private/Profesor/ImportarTareasAlt.aspx">Importar v. XML Document</asp:LinkButton>
-                    <br />
-                    <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:LinkButton ID="LinkButton4" runat="server" PostBackUrl="~/Private/Profesor/ExportarTareas.aspx">Exportar</asp:LinkButton>
-                        </asp:Panel>
-                    </td>
-                    <td><div class="auto-style2">
-                        &nbsp;</div>
-                    </td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-            </table>
         </div>
+        <asp:LinkButton ID="LinkButton1" runat="server">Asignaturas</asp:LinkButton>
+        <p>
+        <asp:LinkButton ID="LinkButton2" runat="server">Tareas</asp:LinkButton>
+        </p>
+        <asp:LinkButton ID="LinkButton3" runat="server">Grupos</asp:LinkButton>
+        <br />
+        <br />
+        <asp:LinkButton ID="LinkButton4" runat="server">Importar v. XML Document</asp:LinkButton>
+        <p>
+        <asp:LinkButton ID="LinkButton5" runat="server">Exportar</asp:LinkButton>
+        </p>
+
+        <br />
+        <div id="tablasAJAX" runat="server">
+
+        </div>
+
     </form>
-  
 </body>
 </html>

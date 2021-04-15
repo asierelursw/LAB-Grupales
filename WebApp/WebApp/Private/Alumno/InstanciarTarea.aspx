@@ -13,6 +13,7 @@
     </style>
 </head>
 <body>
+     <asp:HyperLink ID="HyperLink2" runat="server" Font-Underline="True" ForeColor="Blue" NavigateUrl="~/Private/Logout.aspx">Cerrar Sesión</asp:HyperLink>
     <form id="form1" runat="server">
         <div class="auto-style1">
             <br />
