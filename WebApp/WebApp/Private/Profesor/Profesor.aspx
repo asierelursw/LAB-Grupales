@@ -30,6 +30,9 @@
         <p>
         <asp:LinkButton ID="LinkButton5" runat="server">Exportar</asp:LinkButton>
         </p>
+        <p>
+        <asp:LinkButton ID="LinkButton6" runat="server">Coordinador</asp:LinkButton>
+        </p>
 
         <br />
         <div id="tablasAJAX" runat="server">

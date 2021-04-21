@@ -161,6 +161,69 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:WebApp.Coordinador._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp.Coordinador._UpdatePanel1">
+<summary>
+Control UpdatePanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp.Coordinador._ScriptManager1">
+<summary>
+Control ScriptManager1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp.Coordinador._DropDownList1">
+<summary>
+Control DropDownList1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp.Coordinador._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp.Coordinador._Button1">
+<summary>
+Control Button1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp.Coordinador._TextBox1">
+<summary>
+Control TextBox1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:WebApp.ImportarTareas._HyperLink1">
 <summary>
 Control HyperLink1.
@@ -854,6 +917,24 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:WebApp.Registro._Button2">
+<summary>
+Control Button2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp.Registro._Label6">
+<summary>
+Control Label6.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:WebApp.Registro._Label2">
 <summary>
 Control Label2.
@@ -1168,6 +1249,66 @@ Control LinkButton1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member>
+<member name="T:WebApp.horasmedias.horasmedias">
+<remarks/>
+</member>
+<member name="M:WebApp.horasmedias.horasmedias.#ctor">
+<remarks/>
+</member>
+<member name="E:WebApp.horasmedias.horasmedias.horasmediaCompleted">
+<remarks/>
+</member>
+<member name="M:WebApp.horasmedias.horasmedias.horasmedia(System.String)">
+<remarks/>
+</member>
+<member name="M:WebApp.horasmedias.horasmedias.horasmediaAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:WebApp.horasmedias.horasmedias.horasmediaAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:WebApp.horasmedias.horasmedias.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:WebApp.horasmedias.horasmediaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:WebApp.horasmedias.horasmediaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:WebApp.horasmedias.horasmediaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:WebApp.Matriculas.Matriculas">
+<remarks/>
+</member>
+<member name="M:WebApp.Matriculas.Matriculas.#ctor">
+<remarks/>
+</member>
+<member name="E:WebApp.Matriculas.Matriculas.comprobarCompleted">
+<remarks/>
+</member>
+<member name="M:WebApp.Matriculas.Matriculas.comprobar(System.String)">
+<remarks/>
+</member>
+<member name="M:WebApp.Matriculas.Matriculas.comprobarAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:WebApp.Matriculas.Matriculas.comprobarAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:WebApp.Matriculas.Matriculas.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:WebApp.Matriculas.comprobarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:WebApp.Matriculas.comprobarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:WebApp.Matriculas.comprobarCompletedEventArgs.Result">
+<remarks/>
 </member>
 </members>
 </doc>

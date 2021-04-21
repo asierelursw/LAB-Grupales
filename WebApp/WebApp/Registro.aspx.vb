@@ -44,4 +44,12 @@ Public Class Registro
         cerrarconexion()
     End Sub
 
+    Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim matricula As New Matriculas.Matriculas
+        Dim email = TextBox1.Text
+        Dim res = matricula.comprobar(email)
+        Label6.Text = res.ToString
+        Label6.Visible = True
+
+    End Sub
 End Class

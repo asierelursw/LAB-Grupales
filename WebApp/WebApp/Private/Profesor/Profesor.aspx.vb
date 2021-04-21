@@ -19,4 +19,7 @@ Public Class Profesor
         Response.Redirect("ExportarTareas.aspx")
     End Sub
 
+    Protected Sub LinkButton6_Click(sender As Object, e As EventArgs) Handles LinkButton6.Click
+        Response.Redirect("Coordinador.aspx")
+    End Sub
 End Class

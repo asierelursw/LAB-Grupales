@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="horasmedia">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="asig" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="horasmediaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="horasmediaResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="horasmediaSoapIn">
+    <wsdl:part name="parameters" element="tns:horasmedia" />
+  </wsdl:message>
+  <wsdl:message name="horasmediaSoapOut">
+    <wsdl:part name="parameters" element="tns:horasmediaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="horasmediasSoap">
+    <wsdl:operation name="horasmedia">
+      <wsdl:input message="tns:horasmediaSoapIn" />
+      <wsdl:output message="tns:horasmediaSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="horasmediasSoap" type="tns:horasmediasSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="horasmedia">
+      <soap:operation soapAction="http://tempuri.org/horasmedia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="horasmediasSoap12" type="tns:horasmediasSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="horasmedia">
+      <soap12:operation soapAction="http://tempuri.org/horasmedia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="horasmedias">
+    <wsdl:port name="horasmediasSoap" binding="tns:horasmediasSoap">
+      <soap:address location="https://localhost:44391/horasmedias.asmx" />
+    </wsdl:port>
+    <wsdl:port name="horasmediasSoap12" binding="tns:horasmediasSoap12">
+      <soap12:address location="https://localhost:44391/horasmedias.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

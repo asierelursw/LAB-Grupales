@@ -162,6 +162,7 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
       <Private>True</Private>
@@ -182,6 +183,7 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Text.RegularExpressions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Text.RegularExpressions.4.3.0\lib\net463\System.Text.RegularExpressions.dll</HintPath>
       <Private>True</Private>
@@ -245,6 +247,7 @@
     <Content Include="Confirmar.aspx" />
     <Content Include="Private\JavaScript.js" />
     <Content Include="Private\Logout.aspx" />
+    <Content Include="Private\Profesor\Coordinador.aspx" />
     <Content Include="Private\Profesor\ExportarTareas.aspx" />
     <Content Include="Private\Profesor\ImportarTareasAlt.aspx" />
     <Content Include="Inicio.aspx" />
@@ -256,6 +259,7 @@
     <Content Include="Registro.aspx" />
     <Content Include="Private\Alumno\TareasAlumno.aspx" />
     <Content Include="Private\Profesor\TareasProfesor.aspx" />
+    <None Include="Web References\horasmedias\horasmedias.disco" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -288,6 +292,13 @@
     </Compile>
     <Compile Include="Private\Logout.aspx.vb">
       <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Private\Profesor\Coordinador.aspx.designer.vb">
+      <DependentUpon>Coordinador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Private\Profesor\Coordinador.aspx.vb">
+      <DependentUpon>Coordinador.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Private\Profesor\ExportarTareas.aspx.designer.vb">
@@ -386,6 +397,16 @@
       <DependentUpon>TareasProfesor.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Web References\horasmedias\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\Matriculas\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -410,6 +431,16 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="packages.config" />
+    <None Include="Web References\horasmedias\horasmedias.wsdl" />
+    <Content Include="Web References\horasmedias\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </Content>
+    <None Include="Web References\Matriculas\comprobarmatricula.wsdl" />
+    <Content Include="Web References\Matriculas\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -429,6 +460,36 @@
       <Project>{564458c7-e0d2-420f-a609-154596909baf}</Project>
       <Name>MandarMail</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="https://ehusw.es/jav/ServiciosWeb/comprobarmatricula.php%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Matriculas\</RelPath>
+      <UpdateFromURL>https://ehusw.es/jav/ServiciosWeb/comprobarmatricula.php%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WebApp_Matriculas_Matriculas</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://localhost:44391/horasmedias.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\horasmedias\</RelPath>
+      <UpdateFromURL>https://localhost:44391/horasmedias.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WebApp_horasmedias_horasmedias</CachedSettingsPropName>
+    </WebReferenceUrl>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

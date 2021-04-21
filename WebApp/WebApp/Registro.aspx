@@ -52,6 +52,8 @@
                     <td>
             <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox1" Display="Dynamic" ErrorMessage="RegularExpressionValidator" ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*">Email invalido</asp:RegularExpressionValidator>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" Display="Dynamic" ErrorMessage="RequiredFieldValidator" ForeColor="Red">Campo Obligatorio</asp:RequiredFieldValidator>
+                        <asp:Button ID="Button2" runat="server" Text="Comprobar VIP" />
+                        <asp:Label ID="Label6" runat="server"></asp:Label>
                     </td>
                 </tr>
                 <tr>
