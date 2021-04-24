@@ -26,12 +26,19 @@ Public Class Registro
             pass += b.ToString("x2")
         Next
         Try
-            Response.Write(insertarVadillo(TextBox1.Text, TextBox2.Text, TextBox3.Text, randomNo, RadioButtonList1.SelectedValue, pass))
-            Dim body As String = "Su codigo de confirmación es " + randomNo.ToString
+            Dim matricula As New Matriculas.Matriculas
+            Dim email = TextBox1.Text
+            Dim res = matricula.comprobar(email)
+            If res = "SI" Then
+                Response.Write(insertarVadillo(TextBox1.Text, TextBox2.Text, TextBox3.Text, randomNo, RadioButtonList1.SelectedValue, pass))
+                Dim body As String = "Su codigo de confirmación es " + randomNo.ToString
 
-            If (mail.enviarEmail(TextBox1.Text, "Confirmacion de la cuenta", body)) Then
-                Response.Write("    EMAIL DE CONFIRMACION ENVIADO")
-            Else Response.Write("   EMAIL DE CONFIRMACION NO ENVIADO (MAL)")
+                If (mail.enviarEmail(TextBox1.Text, "Confirmacion de la cuenta", body)) Then
+                    Response.Write("    EMAIL DE CONFIRMACION ENVIADO")
+                Else Response.Write("   EMAIL DE CONFIRMACION NO ENVIADO (MAL)")
+                End If
+            Else
+                MsgBox("NO ERES VIP")
             End If
 
         Catch ex As Exception
